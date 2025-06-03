@@ -61,7 +61,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                 {personalInfo.location}
               </motion.div>
 
               <motion.a
@@ -71,7 +71,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
+                 {personalInfo.email}
               </motion.a>
 
               <motion.a
@@ -83,7 +83,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                 GitHub
               </motion.a>
 
               <motion.a
@@ -122,7 +122,7 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-blue-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter py-1 px-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative text-justify">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-pink-500 rounded-full"></span>
-              🚀 Profesional en Ciencias de la Computación en etapa de titulación, con experiencia en programación, administración de 
+               Profesional en Ciencias de la Computación en etapa de titulación, con experiencia en programación, administración de 
               sistemas y computación en la nube. Poseo un conjunto de habilidades versátil que abarca desde la automatización de procesos 
               hasta la implementación de soluciones con inteligencia artificial y aprendizaje profundo. Me apasiona aprender y aplicar nuevas 
               tecnologías para resolver problemas del mundo real, adaptándome rápidamente a distintos entornos y metodologías. Combino el enfoque 
