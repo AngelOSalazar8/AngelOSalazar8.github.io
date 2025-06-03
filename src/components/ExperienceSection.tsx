@@ -52,7 +52,7 @@ export default function ExperienceSection() {
                   {job.achievements.map((achievement, i) => (
                     <motion.li
                       key={i}
-                      className="text-justify text-muted-foreground relative pl-6"
+                      className=" text-muted-foreground relative pl-6"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.3, delay: 0.1 * i }}

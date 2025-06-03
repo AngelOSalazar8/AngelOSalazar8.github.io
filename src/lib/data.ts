@@ -7,34 +7,7 @@ export const personalInfo = {
 };
 
 export const workExperience = [
-  /*{
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
-    achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
-    ],
-  },*/
-  {
-    company: "Unidad de soporte y mantenimiento de equipo de cómputo",
-    location: "Mérida, Yucatán",
-    position: "Practicante",
-    period: "Sep 2023 - Ene 2024",
-    achievements: [
-      "Instalación y configuración de sistemas operativos (Windows, Linux, MacOS).",
-      "Automatización de tareas administrativas utilizando herramientas de Microsoft 365 y Google Workspace.",
-      "Documentación de procedimientos y actividades en operaciones de TI.",
-      "Propuesta e implementación de soluciones TIC para mejorar la eficiencia en la resolución de problemas del sistema.",
-    ],
-  },
-  {
+   {
     company: "Laboratorio de Machine Learning y Visión por Computadora",
     location: "Mérida, Yucatán",
     position: "Servicio Social",
@@ -45,6 +18,18 @@ export const workExperience = [
       "Generación y almacenamiento de estadísticas de entrenamiento y validación del modelo en formato CSV para su posterior análisis.",
       "Aplicación de técnicas avanzadas de ciencia de datos para interpretar los resultados, identificar patrones y evaluar el desempeño de cada modelo.",
       "Creación de visualizaciones y gráficos para representar la evolución de las métricas clave y determinar el modelo más eficiente en la detección del parásito."
+    ],
+  },
+  {
+    company: "Unidad de soporte y mantenimiento de equipo de cómputo",
+    location: "Mérida, Yucatán",
+    position: "Practicante",
+    period: "Sep 2023 - Ene 2024",
+    achievements: [
+      "Instalación y configuración de sistemas operativos (Windows, Linux, MacOS).",
+      "Automatización de tareas administrativas utilizando herramientas de Microsoft 365 y Google Workspace.",
+      "Documentación de procedimientos y actividades en operaciones de TI.",
+      "Propuesta e implementación de soluciones TIC para mejorar la eficiencia en la resolución de problemas del sistema.",
     ],
   },
 ];
@@ -131,8 +116,10 @@ lenguajes:[
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/NinthHarp8",
+    title: "Opengl Mona Lisa",
+    github: "https://github.com/Ninthharp8/opengl-c-monalisa.git",
+    image:"https://github.com/Ninthharp8/opengl-c-monalisa/blob/main/shaders/monalisa.png?raw=true",
+    tags: ["C/C++", "Opengl"],
     description: [
       "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
       "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
@@ -142,8 +129,10 @@ export const projects = [
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/NinthHarp8",
+    title: "YOLO Chagas Analysis",
+    github: "https://github.com/Ninthharp8/yolo-chagas-analysis",
+    image: "https://github.com/Ninthharp8/yolo-chagas-analysis/blob/main/results/inferences/trypanosoma3.png?raw=true",
+    tags: ["Python", "YOLOv8", "Ultralytics"],
     description: [
       "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
       "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",

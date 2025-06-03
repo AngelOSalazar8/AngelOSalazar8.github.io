@@ -18,7 +18,7 @@ export default function ProjectsSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🚀 Projects
+            🚀 Proyectos
           </h2>
         </MotionWrapper>
 
@@ -27,10 +27,18 @@ export default function ProjectsSection() {
             <MotionWrapper key={project.title} delay={index * 0.2}>
               <GlassCard className="group overflow-hidden dark:border-blue-500/10 h-full flex flex-col">
                 <CardHeader className="bg-gradient-to-r from-blue-500/5 to-pink-500/5">
+                  {project.image && (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-40 object-cover rounded-md mb-4"
+                    />
+                  )}
                   <CardTitle className="text-center md:text-left group-hover:text-blue-500 transition-colors duration-300">
                     {project.title}
                   </CardTitle>
                 </CardHeader>
+
                 <CardContent className="flex-grow">
                   <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
                     {project.description.map((desc, i) => (
@@ -46,7 +54,21 @@ export default function ProjectsSection() {
                       </motion.li>
                     ))}
                   </ul>
+
+                  {project.tags && (
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      {project.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-xs bg-muted px-2 py-1 rounded"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </CardContent>
+
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-blue-500/5 to-pink-500/5">
                   <motion.a
                     href={project.github}
