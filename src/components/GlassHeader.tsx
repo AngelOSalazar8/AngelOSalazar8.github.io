@@ -39,14 +39,15 @@ export default function GlassHeader() {
   return (
     <header
         className={`fixed z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60 transition-transform duration-500`}>
-      <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center">
+      <div className="container max-w-4xl mx-auto py-2 px-4 md:py-4 flex justify-between items-center">
         <motion.a
           className="flex items-center text-lg font-medium"
           href="/"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          👨‍💻 {personalInfo.name}
+          {/* 👨‍💻 {personalInfo.name} */}
+          👨‍💻 Inicio
         </motion.a>
 
         {/* Desktop Navigation */}
@@ -119,7 +120,6 @@ export default function GlassHeader() {
                     {item === "projects" && "🚀 Proyectos"}
                     {item === "awards" && "🏆 Logros"}
                     {item === "education" && "🎓 Educación"}
-                    {/* {item.charAt(0).toUpperCase() + item.slice(1)} */}
                   </motion.a>
                 )
               )}
