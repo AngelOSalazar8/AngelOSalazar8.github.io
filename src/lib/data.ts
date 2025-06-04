@@ -145,7 +145,7 @@ export const projects = [
     title: "Exploración del Funcionamiento de una GAN",
     github: "https://github.com/Ninthharp8/gen-ia-mango-images-using-GAN.git",
     image: "https://github.com/Ninthharp8/gen-ia-mango-images-using-GAN/blob/main/samples/09-gan-mango.jpg?raw=true",
-    tags: ["Python", "YOLOv8", "Ultralytics"],
+    tags: ["Python",  "Jupyter"],
     description: [
       "Exploré cómo funciona una red generativa antagónica (GAN) entrenando un modelo que genera imágenes de mangos sintéticos.",
       "Obtuve imágenes cada vez más realistas conforme la red aprendía durante las épocas de entrenamiento.",
