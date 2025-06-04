@@ -116,16 +116,16 @@ lenguajes:[
 
 export const projects = [
   {
-    title: "Opengl Mona Lisa",
-    github: "https://github.com/Ninthharp8/opengl-c-monalisa.git",
-    image:"https://github.com/Ninthharp8/opengl-c-monalisa/blob/main/shaders/monalisa.png?raw=true",
-    tags: ["C/C++", "Opengl"],
+    title: "Análisis de Modelos para la Clasificación del Parkinson",
+    github: "https://github.com/Ninthharp8/supervised-learning-parkinson.git",
+    image:"https://github.com/Ninthharp8/supervised-learning-parkinson/blob/main/results/graphic-comparison-pressicion.png?raw=true",
+    tags: ["Python", "Jupyter"],
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      "Estudié el comportamiento de distintos modelos de machine learning aplicados a la detección de Parkinson usando datos de voz.",
+      "Comparé algoritmos como SVM, KNN y Random Forest para evaluar su precisión y confiabilidad.",
+      "Analicé métricas como precisión, matriz de confusión y curvas ROC para entender el rendimiento de cada modelo.",
+      "El trabajo me permitió familiarizarme con técnicas de clasificación supervisada y su aplicación en el área médica.",
+      "Proyecto académico realizado en Jupyter con Python y Scikit-learn."
     ],
   },
   {
@@ -134,11 +134,24 @@ export const projects = [
     image: "https://github.com/Ninthharp8/yolo-chagas-analysis/blob/main/results/inferences/trypanosoma3.png?raw=true",
     tags: ["Python", "YOLOv8", "Ultralytics"],
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+       "Detección avanzada de *Trypanosoma cruzi* utilizando modelos YOLO desde la versión 6 hasta la 10 para diagnóstico rápido.",
+        "Entrenamiento personalizado y validación cruzada para comparar precisión, recall y métricas mAP entre distintas versiones de YOLO.",
+        "Análisis detallado de rendimiento y visualización de resultados con gráficos para optimizar detección en imágenes microscópicas.",
+        "Implementación basada en Ultralytics y PyTorch, integrando técnicas de aprendizaje profundo para mejorar la detección de parásitos.",
+        "Proyecto realizado como servicio social enfocado en contribuir a la salud pública mediante inteligencia artificial aplicada."
+    ],
+  },
+   {
+    title: "Exploración del Funcionamiento de una GAN",
+    github: "https://github.com/Ninthharp8/gen-ia-mango-images-using-GAN.git",
+    image: "https://github.com/Ninthharp8/gen-ia-mango-images-using-GAN/blob/main/samples/09-gan-mango.jpg?raw=true",
+    tags: ["Python", "YOLOv8", "Ultralytics"],
+    description: [
+      "Exploré cómo funciona una red generativa antagónica (GAN) entrenando un modelo que genera imágenes de mangos sintéticos.",
+      "Obtuve imágenes cada vez más realistas conforme la red aprendía durante las épocas de entrenamiento.",
+      "El objetivo fue comprender las etapas del entrenamiento y la arquitectura básica de una GAN.",
+      "Este ejercicio me ayudó a visualizar cómo la inteligencia artificial puede generar contenido visual a partir de ruido.",
+      "Proyecto académico realizado con TensorFlow y Google Colab."
     ],
   },
 ];
