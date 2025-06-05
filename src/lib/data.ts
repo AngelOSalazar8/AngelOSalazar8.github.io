@@ -117,8 +117,8 @@ lenguajes:[
 export const projects = [
   {
     title: "Análisis de Modelos para la Clasificación del Parkinson",
-    github: "https://github.com/Ninthharp8/supervised-learning-parkinson.git",
-    image:"https://github.com/Ninthharp8/supervised-learning-parkinson/blob/main/results/graphic-comparison-pressicion.png?raw=true",
+    github: "https://github.com/AngelOSalazar8/supervised-learning-parkinson.git",
+    image:"https://github.com/AngelOSalazar8/supervised-learning-parkinson/blob/main/results/graphic-comparison-pressicion.png?raw=true",
     tags: ["Python", "Jupyter"],
     description: [
       "Estudié el comportamiento de distintos modelos de machine learning aplicados a la detección de Parkinson usando datos de voz.",
@@ -130,8 +130,8 @@ export const projects = [
   },
   {
     title: "YOLO Chagas Analysis",
-    github: "https://github.com/Ninthharp8/yolo-chagas-analysis",
-    image: "https://github.com/Ninthharp8/yolo-chagas-analysis/blob/main/results/inferences/trypanosoma3.png?raw=true",
+    github: "https://github.com/AngelOSalazar8/yolo-chagas-analysis.git",
+    image: "https://github.com/AngelOSalazar8/yolo-chagas-analysis/blob/main/results/inferences/trypanosoma3.png?raw=true",
     tags: ["Python", "YOLOv8", "Ultralytics"],
     description: [
        "Detección avanzada de *Trypanosoma cruzi* utilizando modelos YOLO desde la versión 6 hasta la 10 para diagnóstico rápido.",
@@ -143,7 +143,7 @@ export const projects = [
   },
    {
     title: "Express Mini Proyectos",
-    github: "https://github.com/Ninthharp8/express-mini-projects.git",
+    github: "https://github.com/AngelOSalazar8/express-mini-projects.git",
     image: "https://repository-images.githubusercontent.com/232512685/70107a80-31f8-11ea-9436-66c4dc25c0e2",
     tags: ["Node", "Express", "JavaScript","Java","Html"],
     description: [
@@ -156,7 +156,7 @@ export const projects = [
   },
    {
     title: "Angular Mini Proyectos",
-    github: "https://github.com/Ninthharp8/angular-mini-proyectos.git",
+    github: "https://github.com/AngelOSalazar8/angular-mini-proyectos.git",
     image: "https://www.unimedia.tech/wp-content/uploads/2023/11/angular-e1700824276714-1200x675.png",
     tags: ["Node", "Angular", "JavaScript","Css","Html","TypeScript"],
     description: [
