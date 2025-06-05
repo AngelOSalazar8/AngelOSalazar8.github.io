@@ -142,6 +142,32 @@ export const projects = [
     ],
   },
    {
+    title: "Express Mini Proyectos",
+    github: "https://github.com/Ninthharp8/express-mini-projects.git",
+    image: "https://repository-images.githubusercontent.com/232512685/70107a80-31f8-11ea-9436-66c4dc25c0e2",
+    tags: ["Node", "Express", "JavaScript","Java","Html"],
+    description: [
+      "Demuestra microservicios modulares orientados a sistemas escolares y gestión alumno-docente.",
+      "Incluye endpoints para alumnos, profesores y control de asistencia con respuestas en formato JSON.",
+      "Integra bases de datos relacionales (MySQL) y no relacionales (MongoDB) para almacenamiento persistente.",
+      "Diseñado para ilustrar conceptos básicos de diseño de APIs REST, manejo de formularios y pruebas externas entre tecnologías.",
+      "Preparado para la nube: expansión planeada hacia despliegue en AWS con Lambda, EC2 y sistemas de mensajería distribuidos.",
+    ],
+  },
+   {
+    title: "Angular Mini Proyectos",
+    github: "https://github.com/Ninthharp8/angular-mini-proyectos.git",
+    image: "https://www.unimedia.tech/wp-content/uploads/2023/11/angular-e1700824276714-1200x675.png",
+    tags: ["Node", "Angular", "JavaScript","Css","Html","TypeScript"],
+    description: [
+      " Desarrollo de mini proyectos para afianzar conceptos de fundamentos de frontend en Angular mediante práctica aplicada.",
+      " Implementación de componentes reutilizables y modulares, favoreciendo una estructura escalable.",
+      "Integración de formularios interactivos, filtrado en tiempo real y estilos condicionales con binding bidireccional y manejo de eventos.",
+      "Simulación de consumo de APIs utilizando Promesas para modelar flujos de datos asincrónicos.",
+      "Cada proyecto fue estructurado de forma independiente para facilitar su comprensión, reutilización y extensión.",
+    ],
+  },
+  /*  {
     title: "Exploración del Funcionamiento de una GAN",
     github: "https://github.com/Ninthharp8/gen-ia-mango-images-using-GAN.git",
     image: "https://github.com/Ninthharp8/gen-ia-mango-images-using-GAN/blob/main/samples/09-gan-mango.jpg?raw=true",
@@ -153,7 +179,7 @@ export const projects = [
       "Este ejercicio me ayudó a visualizar cómo la inteligencia artificial puede generar contenido visual a partir de ruido.",
       "Proyecto académico realizado con TensorFlow y Google Colab."
     ],
-  },
+  }, */
 ];
 
 export const awards = [
