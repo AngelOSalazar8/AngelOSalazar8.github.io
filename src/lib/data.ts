@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Hola!, Soy Ángel Mariel Osalde Salazar",
   location: "Yucatán, México",
   email: "Angelvg268@gmail.com",
-  github: "https://github.com/AnglOSalazar8",
+  github: "https://github.com/AngelOSalazar8",
   linkedin: "https://www.linkedin.com/in/angel-osalde-salazar",
 };
 
