@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: "Hola!, Soy Ángel Mariel Osalde Salazar",
+  name: "Hola!, Soy Ángel Osalde ",
   location: "Yucatán, México",
   email: "Angelvg268@gmail.com",
   github: "https://github.com/AngelOSalazar8",

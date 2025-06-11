@@ -122,12 +122,9 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-blue-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter py-1 px-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative text-justify">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-pink-500 rounded-full"></span>
-               Profesional en etapa de titulación, con experiencia en programación, administración de 
-              sistemas y computación en la nube. Poseo un conjunto de habilidades versátil que abarca desde la automatización de procesos 
-              hasta la implementación de soluciones con inteligencia artificial y aprendizaje profundo. Me apasiona aprender y aplicar nuevas 
-              tecnologías para resolver problemas del mundo real, adaptándome rápidamente a distintos entornos y metodologías. Combino el enfoque 
-              técnico con la creatividad para desarrollar soluciones innovadoras y prácticas. Me considero una persona responsable, adaptable y 
-              orientada al trabajo en equipo, comprometida con la mejora continua y la excelencia profesional.
+               Programador Python con experiencia en análisis de datos y aprendizaje automático. Capacidad para crear soluciones prácticas con Python y herramientas de código abierto, 
+               tanto en entornos de investigación como de TI. Actualmente en transición al desarrollo web integral, con especial atención a frameworks JavaScript modernos como React.
+                Comprometido con el aprendizaje continuo, el código limpio y la resolución de problemas reales mediante la tecnología
             </p>
           </div>
         </MotionWrapper>
