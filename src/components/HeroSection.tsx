@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Desarrollador web | Analista de Datos 
+              Desarrollador Web | Analista de Datos 
             </motion.p>
 
             <motion.div
@@ -125,7 +125,7 @@ export default function HeroSection() {
                Desarrollador Web con experiencia en Python y conocimientos en frameworks modernos como Django, FastAPI, React, 
                Angular y Next.js. Capaz de implementar soluciones completas, desde backend con Python/Node.js y bases de datos 
                SQL o NoSQL, hasta frontend responsivo con Angular o React. Interesado en construir aplicaciones dinámicas, 
-               escalables y orientadas a la experiencia de usuario, con despliegue en la nube
+               escalables y orientadas a la experiencia de usuario, con despliegue en la nube.
             </p>
           </div>
         </MotionWrapper>
