@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Licenciado en ciencias de la computación 
+              Desarrollador web | Analista de Datos 
             </motion.p>
 
             <motion.div
@@ -122,9 +122,10 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-blue-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter py-1 px-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative text-justify">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-pink-500 rounded-full"></span>
-               Programador Python con experiencia en análisis de datos y aprendizaje automático. Capacidad para crear soluciones prácticas con Python y herramientas de código abierto, 
-               tanto en entornos de investigación como de TI. Actualmente en transición al desarrollo web integral, con especial atención a frameworks JavaScript modernos como React.
-                Comprometido con el aprendizaje continuo, el código limpio y la resolución de problemas reales mediante la tecnología
+               Desarrollador Web con experiencia en Python y conocimientos en frameworks modernos como Django, FastAPI, React, 
+               Angular y Next.js. Capaz de implementar soluciones completas, desde backend con Python/Node.js y bases de datos 
+               SQL o NoSQL, hasta frontend responsivo con Angular o React. Interesado en construir aplicaciones dinámicas, 
+               escalables y orientadas a la experiencia de usuario, con despliegue en la nube
             </p>
           </div>
         </MotionWrapper>

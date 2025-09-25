@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Hola!, Soy Ángel Osalde ",
   location: "Yucatán, México",
-  email: "Angelvg268@gmail.com",
+  email: " angelosalazarvg@gmail.com",
   github: "https://github.com/AngelOSalazar8",
   linkedin: "https://www.linkedin.com/in/angel-osalde-salazar",
 };
@@ -10,29 +10,29 @@ export const workExperience = [
    {
     company: "Laboratorio de Machine Learning y Visión por computadora - UADY",
     location: "Mérida, Yucatán",
-    position: "Servicio Social",
+    position: "Asistente de investigación en inteligencia artificial ",
     period: "Sep 2024 - Mar 2025",
     achievements: [
       "Colaboré en un proyecto de inteligencia artificial enfocado en mejorar el análisis de imágenes biomédicas, contribuyendo al desarrollo de soluciones tecnológicas que apoyen el diagnóstico temprano de enfermedades. Principales Responsabilidades :",
-      "Desarrollo y ajuste de modelos de aprendizaje automático para el análisis de imágenes médicas.",
-      "Automatización del procesamiento de datos y generación de estadísticas en formatos reutilizables (CSV).",
-      "Aplicación de técnicas avanzadas de ciencia de datos para interpretar los resultados, identificar patrones y evaluar el desempeño de cada modelo.",
-      "Interpretación de métricas de desempeño de los modelos y elaboración de visualizaciones para facilitar la toma de decisiones.",
-      "Colaboración con investigadores para documentar metodologías y facilitar la implementación en escenarios de pruebas de laboratorio."
+      "Desarrollé scripts en Python para automatizar procesos y mejorar la eficiencia en proyectos de investigación.",
+      "Trabajé con APIs y entornos en la nube (Google Colab, AWS) para pruebas y despliegue de prototipos",
+      "Implementé modelos con librerías de Python y los integré en aplicaciones experimentales.",
+      "Redacté un informe técnico de 12 páginas que documenta la metodología, los resultados y las recomendaciones.",
+      "Colaboré con investigadores de la Uady  para alinear el rendimiento del modelo con los requisitos biomédicos."
     ],
   },
   {
     company: "Unidad de soporte y mantenimiento de equipo de cómputo - UADY",
     location: "Mérida, Yucatán",
-    position: "Practicante",
+    position: " Practicante de Técnico en soporte TI ",
     period: "Sep 2023 - Ene 2024",
     achievements: [
      "Apoyé en la modernización de la infraestructura informática de la facultad, integrando soluciones orientadas a la eficiencia operativa y automatización de procesos técnicos y administrativos. Principales Responsabilidades: ",
-      "Desarrollo de soluciones automatizadas utilizando herramientas de Microsoft 365 y Google Workspace.",
-      "Configuración y mantenimiento de sistemas operativos  Windows, Linux.",
-      "Creación y administración de máquinas virtuales para pruebas de software y estandarización de entornos.",
-      "Documentación técnica de procedimientos para mantenimiento, instalación y configuración de equipos y aplicaciones.",
-      "Propuesta de mejoras para procesos internos de soporte, registro y seguimiento de incidencias."
+      "Participé en la gestión y mantenimiento de sistemas informáticos institucionales.",
+      "Desarrollé herramientas básicas de automatización con Python para tareas administrativas y técnicas.",
+      "Brindé soporte a usuarios y generé documentación técnica para soluciones implementadas.",
+      "Documente técnicas y procedimientos para mantenimiento, instalación y configuración de equipos y aplicaciones.",
+      "Propuse mejoras para procesos internos de soporte, registro y seguimiento de incidencias."
     ],
   },
 ];
@@ -247,3 +247,4 @@ export const awards = [
   position: "Completado"
 },
 ];
+
